@@ -1,4 +1,4 @@
-//program to find the frequency of numbers in a string
+//program to find the frequency of characters in a string
 //DEvika P Sajith
 //Roll no:26
 import java.util.*;
