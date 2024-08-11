@@ -1,3 +1,6 @@
+//program to find transpose of a matrix
+//Devika P Sajith
+//Roll no:26
 import java.util.*;
 class transpose
 {
