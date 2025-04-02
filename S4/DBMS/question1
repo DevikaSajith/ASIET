@@ -1,0 +1,4 @@
+1.	SELECT person_name FROM employeess WHERE person_name LIKE 'C%';
+2.	SQL> SELECT DISTINCT e.person_name FROM employeess e JOIN manages m ON e.ID = m.manager_id;
+3.	SQL> SELECT e.ID, e.person_name, e.city FROM employeess e JOIN works w ON e.ID = w.ID WHERE w.company_name = 'First Bank' AND w.salary < 50000;
+4.	SELECT w.company_name FROM works w GROUP BY w.company_name HAVING AVG(w.salary) > ( SELECT AVG(salary)  FROM works  WHERE company_name = 'First Bank Corporation');
